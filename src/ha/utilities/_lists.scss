@@ -1,0 +1,89 @@
+// List utilities
+
+// Plain list
+.nolist, .nolist-inline {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+// Inline list
+.inline {
+  display: inline-block;
+}
+
+// Plain list inline
+.nolist-inline {
+  
+  li {
+    display: inline-block;
+    margin-inline-end: .5rem;
+  }
+  
+  li:last-child {
+    margin-inline-end: 0;
+  }
+}
+
+// See _accordions.scss for .details-list (accordion list groups) properties.
+
+.list-group, .card-list {
+--color: var(--text);
+--bg-color: inherit;
+--ico-color: var(--color);
+--border-color: var(--surf-4);
+--radius: .25rem;
+--padding-block: .5rem;
+--padding-inline: .75rem;
+--negative-block: -.5rem;
+--negative-inline: -.75rem;
+
+  margin-block-end: 0;
+  list-style: none;
+  padding-inline-start: 0;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  
+  li {
+    padding-block: var(--padding-block);
+    padding-inline: var(--padding-inline);
+    border-block-end: 1px solid var(--border-color);
+       
+    a {
+      display: block;
+      margin-block: var(--negative-block);
+      margin-inline: var(--negative-inline);
+      padding-block: var(--padding-block);
+      padding-inline: var(--padding-inline);
+      
+      &:hover {
+        background-color: var(--surf-2);
+      }
+    }
+    
+    &:first-child {   
+      a {
+        &:hover {
+          border-top-left-radius: calc(var(--radius) - 1px);
+          border-top-right-radius: calc(var(--radius) - 1px);
+        }
+      }
+    }
+    
+    &:last-child {
+      border-block-end: none;
+      
+      a {
+        &:hover {
+          border-bottom-left-radius: calc(var(--radius) - 1px);
+          border-bottom-right-radius: calc(var(--radius) - 1px);
+        }
+      }
+    }
+  }
+}
+
+.card-list {
+  border-block-start: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

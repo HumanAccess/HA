@@ -1,0 +1,111 @@
+// Orange color utilities
+
+$orange-1-color:          #000 !default;
+$orange-1-bg-color:       var(--orange-1) !default;
+$orange-1-ico-color:      var(--color) !default;
+$orange-1-border-color:   var(--orange-2) !default;
+$orange-1-color-hover:    var(--color) !default;
+$orange-1-bg-hover:       var(--orange-2) !default;
+$orange-1-color-focus:    var(--color) !default;
+$orange-1-bg-focus:       var(--orange-1) !default;
+$orange-focus-hsl:        var(--orange) !default;
+
+$orange-1: (
+  "--color": #{$orange-1-color},
+  "--bg-color": #{$orange-1-bg-color},
+  "--border-color": #{$orange-1-border-color},
+  "--ico-color": #{$orange-1-ico-color},
+  "--color-hover": #{$orange-1-color-hover},
+  "--color-focus": #{$orange-1-color-focus},
+  "--bg-hover": #{$orange-1-bg-hover},
+  "--bg-focus": #{$orange-1-bg-focus},
+  "--focus-hsl": #{$orange-focus-hsl},
+) !default;
+
+$orange-2-color:          #000 !default;
+$orange-2-bg-color:       var(--orange-2) !default;
+$orange-2-ico-color:      var(--color) !default;
+$orange-2-border-color:   var(--orange-3) !default;
+$orange-2-color-hover:    var(--color) !default;
+$orange-2-bg-hover:       var(--orange-1) !default;
+$orange-2-color-focus:    var(--color) !default;
+$orange-2-bg-focus:       var(--orange-2) !default;
+$orange-focus-hsl:        var(--orange) !default;
+
+$orange-2: (
+  "--color": #{$orange-2-color},
+  "--bg-color": #{$orange-2-bg-color},
+  "--border-color": #{$orange-2-border-color},
+  "--ico-color": #{$orange-2-ico-color},
+  "--color-hover": #{$orange-2-color-hover},
+  "--color-focus": #{$orange-2-color-focus},
+  "--bg-hover": #{$orange-2-bg-hover},
+  "--bg-focus": #{$orange-2-bg-focus},
+  "--focus-hsl": #{$orange-focus-hsl},
+) !default;
+
+$orange-3-color:          #000 !default;
+$orange-3-bg-color:       var(--orange-3) !default;
+$orange-3-ico-color:      var(--color) !default;
+$orange-3-border-color:   var(--orange-4) !default;
+$orange-3-color-hover:    var(--color) !default;
+$orange-3-bg-hover:       var(--orange-4) !default;
+$orange-3-color-focus:    var(--color) !default;
+$orange-3-bg-focus:       var(--orange-5) !default;
+$orange-focus-hsl:        var(--orange) !default;
+
+$orange-3: (
+  "--color": #{$orange-3-color},
+  "--bg-color": #{$orange-3-bg-color},
+  "--border-color": #{$orange-3-border-color},
+  "--ico-color": #{$orange-3-ico-color},
+  "--color-hover": #{$orange-3-color-hover},
+  "--color-focus": #{$orange-3-color-focus},
+  "--bg-hover": #{$orange-3-bg-hover},
+  "--bg-focus": #{$orange-3-bg-focus},
+  "--focus-hsl": #{$orange-focus-hsl},
+) !default;
+
+$orange-4-color:          #000 !default;
+$orange-4-bg-color:       var(--orange-4) !default;
+$orange-4-ico-color:      var(--color) !default;
+$orange-4-border-color:   var(--orange-5) !default;
+$orange-4-color-hover:    var(--color) !default;
+$orange-4-bg-hover:       var(--orange-3) !default;
+$orange-4-color-focus:    var(--color) !default;
+$orange-4-bg-focus:       var(--orange-5) !default;
+$orange-focus-hsl:        var(--orange) !default;
+
+$orange-4: (
+  "--color": #{$orange-4-color},
+  "--bg-color": #{$orange-4-bg-color},
+  "--border-color": #{$orange-4-border-color},
+  "--ico-color": #{$orange-4-ico-color},
+  "--color-hover": #{$orange-4-color-hover},
+  "--color-focus": #{$orange-4-color-focus},
+  "--bg-hover": #{$orange-4-bg-hover},
+  "--bg-focus": #{$orange-4-bg-focus},
+  "--focus-hsl": #{$orange-focus-hsl},
+) !default;
+
+$orange-5-color:          #fff !default;
+$orange-5-bg-color:       var(--orange-5) !default;
+$orange-5-ico-color:      var(--color) !default;
+$orange-5-border-color:   var(--orange-4) !default;
+$orange-5-color-hover:    var(--color) !default;
+$orange-5-bg-hover:       var(--orange-4) !default;
+$orange-5-color-focus:    var(--color) !default;
+$orange-5-bg-focus:       var(--orange-3) !default;
+$orange-focus-hsl:        var(--orange) !default;
+
+$orange-5: (
+  "--color": #{$orange-5-color},
+  "--bg-color": #{$orange-5-bg-color},
+  "--border-color": #{$orange-5-border-color},
+  "--ico-color": #{$orange-5-ico-color},
+  "--color-hover": #{$orange-5-color-hover},
+  "--color-focus": #{$orange-5-color-focus},
+  "--bg-hover": #{$orange-5-bg-hover},
+  "--bg-focus": #{$orange-5-bg-focus},
+  "--focus-hsl": #{$orange-focus-hsl},
+) !default;

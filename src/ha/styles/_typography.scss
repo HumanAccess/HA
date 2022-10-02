@@ -1,0 +1,219 @@
+// Body and typography styles
+
+:where(body, h1, h2, h3, h4, h5, h6) {
+  font-size: var(--fs);
+  font-weight: var(--fw);
+  line-height: var(--lh);
+  letter-spacing: var(--ls);
+}
+
+:where(body) {
+--fs: #{$font-size};
+--fw: #{$font-weight};
+--lh: #{$line-height};
+--ls: #{$letter-spacing};
+--ico-color: var(--text);
+  font-family: #{$font-family}; 
+  color: #{$color};
+  background-color: #{$background-color};  
+}
+
+:where(a) {
+  color: #{$link};
+  overflow-wrap: break-word;
+  text-decoration-thickness: from-font;
+}
+
+:where(a):hover, :where(a):focus {
+  color: #{$link-hover};
+  text-decoration: none;
+}
+
+:where(a):focus {
+  outline-offset: .175em;
+  outline-color: #{$link-hover};
+}
+
+:where(a):focus:not(:focus-visible) {
+  outline: none;
+}
+
+:where(a:not([href]):not([class])), :where(a:not([href]):not([class])):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+:where(a:not([href]):not([class])):active {
+  outline: none;
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+--mb: .5rem;
+--lh: 1.15;
+  margin-block-end: var(--mb);
+}
+
+:where(h1) {
+--fs: #{$h1-fs};
+--fw: #{$h1-fw};
+}
+
+:where(h2) {
+--fs: #{$h2-fs};
+--fw: #{$h2-fw};
+}
+
+:where(h3) {
+--fs: #{$h3-fs};
+--fw: #{$h3-fw};
+}
+
+:where(h4) {
+--fs: #{$h4-fs};
+--fw: #{$h4-fw};
+}
+
+:where(h5) {
+--fs: #{$h5-fs};
+--fw: #{$h5-fw};
+}
+
+:where(h6) {
+--fs: #{$h6-fs};
+--fw: #{$h6-fw};
+}
+
+:where(p, ol, ul, dl, address) {
+  margin-block-end: 1rem;
+}
+
+:where(ol, ul) {
+  padding-inline-start: 2rem;
+}
+
+:where(ol ol, ul ul, ol ul, ul ol, dl dl) {
+  margin-block-end: 0;
+}
+
+:where(dt) {
+  font-weight: bold;
+}
+
+:where(dd dl dt) {
+  font-weight: 600;
+}
+
+:where(dd) {
+  margin-inline-start: 1rem;
+}
+
+:where(abbr[title]) {
+  cursor: help;
+}
+
+:where(address) {
+  font-style: normal;
+}
+
+:where(small) {
+--fs: #{$fs-small};
+  font-size: var(--fs);
+}
+
+:where(sup, sub) {
+  font-size: #{$fs-sup-sub};
+}
+
+:where(code) {
+  color: #{$code-color};
+  word-wrap: break-word;
+}
+
+a > :where(code) {
+  color: inherit;
+}
+
+:where(pre, code, kbd, samp) {
+  font-family: #{$code-ff};
+}
+
+:where(pre) {
+  display: block;
+  overflow: auto;
+  background-color: #{$pre-bg-color};
+  border: 1px solid #{$pre-border-color};
+  padding: #{$pre-padding};
+  margin-block-end: #{$pre-margin-bottom};
+}
+
+:where(pre) code {
+  word-break: normal;
+}
+
+:where(pre):focus {
+  outline-width: medium;
+  outline-offset: 3px;
+  outline-color: #{$pre-outline-color};
+}
+
+:where(kbd) {
+  font-size: #{$kbd-fs};
+  color: #{$kbd-color};
+  background-color: #{$kbd-bg};
+  border-radius: #{$kbd-border-radius};
+  padding: #{$kbd-padding};
+}
+
+:where(kbd) kbd {
+  padding: 0;
+  font-weight: bold;
+}
+
+:where(figure) {
+  margin: #{$figure-margin};
+}
+
+:where(figcaption) {
+  font-size: #{$figure-caption};
+}
+
+:where(blockquote) {
+  font-size: #{$blockquote-fs};
+  border-block-end: #{$blockquote-border-width} solid #{$blockquote-border-color};
+  padding-block-end: #{$blockquote-padding-bottom};
+  margin-block-end: #{$blockquote-margin-bottom};
+}
+
+:where(blockquote) p {
+  margin-block-end: 0;
+}
+
+:where(details) {
+  margin-block-end: #{$details-margin-bottom};
+}
+
+:where(summary) {
+  font-weight: #{$summary-font-weight};
+  cursor: pointer;
+}
+
+:where(img, svg, video, audio, iframe, embed, object) {
+  display: block;
+}
+
+:where(img, svg) { 
+  max-width: 100%;
+}
+
+:where(iframe) {
+  border: 0;
+}
+
+:where(hr) {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  border: none;
+  border-block-start: #{$hr-border-width} solid #{$hr-border-color};
+  margin-block-end: #{$hr-margin-bottom};
+}

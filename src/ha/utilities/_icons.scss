@@ -1,0 +1,78 @@
+// SVG icons
+:where(html) { 
+    @each $icons, $value in $icons {
+    --#{$icons}: #{$value};
+  }
+}
+
+// SVG extend
+%svg-mask {
+--ico-valign: -.125em;
+  display: inline-block;
+  background-color: var(--ico-color);
+  content: "";
+  width: var(--fs);
+  height: var(--fs);
+  vertical-align: var(--ico-valign);
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+// Class utility styles
+
+.ico, .ico-a:after, .ico-b:before, .ico-block:before {
+  @extend %svg-mask;
+}
+ 
+.ico-a:after { 
+  margin-inline-start: calc(var(--fs) / 5);
+}
+
+.ico-b:before { 
+  margin-inline-end: calc(var(--fs) / 5); 
+}
+
+.ico-block:before {
+  display: block;
+  margin-inline: auto;
+  margin-block-end: calc(var(--fs) / 8);
+}
+
+// Class utility icons
+
+.sun {
+  --svg: var(--day-mode);
+}
+
+.moon {
+  --svg: var(--night-mode);
+}
+
+@each $icons, $value in $icons {
+.#{$icons} {
+  --svg: var(--#{$icons});        
+  }
+}
+
+.arrowdown {
+  --svg: var(--arrowup);
+  &:before, &:after {
+    rotate: 180deg;
+  }
+}
+
+.arrowright {
+  --svg: var(--arrowup);
+  &:before, &:after {
+    rotate: 90deg;
+  }
+}
+
+.arrowleft {
+  --svg: var(--arrowup);
+  &:before, &:after {
+    rotate: 270deg;
+  }
+}

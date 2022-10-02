@@ -1,0 +1,55 @@
+// Tables
+
+:where(table) {
+  caption-side: #{$table-cap-side};
+  border-collapse: collapse;
+  width: #{$table-width};
+  margin-block-end: #{$table-margin-bottom};
+  font-variant-numeric: tabular-nums;
+}
+
+:where(caption) {
+  font-size: #{$table-cap-fs};
+  font-weight: #{$table-cap-fw};
+  text-align: #{$table-cap-align};
+  padding-block-end: #{$table-cap-padding};
+}
+
+:where(th) {
+  font-weight: #{$table-th-fw};
+  text-align: inherit;
+  text-align: -webkit-match-parent;
+}
+
+:where(thead, tbody, tfoot, tr, td, th) {
+  border-color: #{$table-border-color};
+  border-style: solid;
+  border-width: #{$table-border-width};
+  vertical-align: #{$table-valign};
+}
+
+:where(tbody, thead) th, :where(tbody, thead) td {
+  padding: #{$table-padding}; 
+  white-space: nowrap;
+}
+
+:where(thead) th {
+  font-weight: #{$table-thead-fw};
+  background-color: #{$table-thead-bg-color};
+  border-inline-end-color: #{$table-thead-border-right};;
+  
+  &:last-child {
+    border-inline-end-color: #{$table-border-color};
+  }
+}
+
+:where(tr) {
+  &:hover {
+    background-color: #{$table-tr-hover};
+  }
+}
+
+// Wrapper for horizontal scrolling
+.table-wrap {
+  overflow-x: auto;
+}

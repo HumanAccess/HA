@@ -1,0 +1,161 @@
+// Buttons
+
+:where(button, [type=button], [type=submit], [type=reset], [role=button], .btn),
+:where(input[type=file])::-webkit-file-upload-button,
+:where(input[type=file])::file-selector-button {
+  --border-width: 1px;
+  --border-style: solid;
+  --border-color: transparent;
+  --radius: 2px;
+  --padding-block: 0.25rem;
+  --padding-inline:  0.75rem;
+  --focus-shadow: 0 0 0 0.18rem hsla(var(--focus-hsl) / 0.5);
+  color: var(--color);
+  border-width: var(--border-width);
+  border-style: var(--border-style);
+  border-color: var(--border-color);  
+  border-radius: var(--radius);
+  background-color: var(--bg-color);
+  padding-block: var(--padding-block);
+  padding-inline: var(--padding-inline);
+  cursor: pointer;
+  -webkit-appearance: button;
+  appearance: button;
+  transition: border-color 0.1s, background-color 0.1s;
+}
+
+:where([role=button], .btn) {
+  display: inline-block;
+  text-decoration: none;
+}
+
+:where(.btn) {
+  text-align: center;
+  vertical-align: middle;
+}
+
+:where(button, [type=button], [type=submit], [type=reset], [role=button], .btn):hover {
+--color-hover: var(--color);
+  color: var(--color-hover);
+  background-color: var(--bg-hover);
+}
+
+:where(button, [type=button], [type=submit], [type=reset], [role=button], .btn):focus,
+:where(button, [type=button], [type=submit], [type=reset], [role=button], .btn):active {
+--color-focus: var(--color);
+--bg-focus: var(--bg-hover);
+  color: var(--color-focus);
+  background-color: var(--bg-focus);
+  outline: 0;
+  box-shadow: var(--focus-shadow);
+}
+
+:where(button, [type=button], [role=button], .btn) {
+  --color: var(--text);
+  --bg-color: var(--surf-2);
+  --bg-hover: var(--surf-3);
+  --bg-focus: var(--surf-1);
+  --focus-hsl: var(--text-hsl);
+  --border-color: var(--surf-3);  
+  --color-hover: var(--text);
+  --color-focus: var(--text);
+}
+
+
+
+
+.btn-xs {
+  --fs: var(--fs-xs);
+  --padding-block: 0.15rem;
+  --padding-inline:  0.5rem;
+}
+
+.btn-sm {
+  --fs: var(--fs-sm);
+  --padding-block: 0.2rem;
+  --padding-inline:  0.65rem;
+}
+
+.btn-lg {
+  --fs: var(--fs-lgr);
+  --padding-block: 0.5rem;
+  --padding-inline:  1.25rem;
+}
+
+.btn-lgr {
+  --fs: var(--fs-lgst);
+  --padding-block: 0.75rem;
+  --padding-inline:  1.5rem;
+}
+
+.btn-toolbar {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.btn-group-col {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+:where(.btn-group > *),
+:where(.btn-group-col > *) {
+  --radius: 0;
+}
+
+:where(.btn-group > *):focus,
+:where(.btn-group-col > *):focus {
+  box-shadow: none;
+  outline: inset thin;
+  outline-color: var(--border-color);
+}
+
+:where(.btn-group > *) {
+  border-right: none;
+}
+
+:where(.btn-group > *):focus,
+:where(.btn-group > *):active {
+  border-right: none;
+}
+
+:where(.btn-group > *):first-child {
+  --radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+:where(.btn-group > *):last-child {
+  --radius: 2px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-right: var(--border-width) solid var(--border-color);
+}
+
+:where(.btn-group-col > *) {
+  border-bottom: none;
+}
+
+:where(.btn-group-col > *):focus,
+:where(.btn-group-col > *):active {
+  border-bottom: none;
+  outline: none;
+}
+
+:where(.btn-group-col > *):first-child {
+  --radius: 2px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+:where(.btn-group-col > *):last-child {
+  --radius: 2px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom: var(--border-width) solid var(--border-color);
+}

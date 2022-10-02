@@ -1,0 +1,211 @@
+// Accordions using <details> tag
+
+
+:where(.details, .details-group, .details-group-card, .details-list) {
+--color: var(--text);
+--bg-color: inherit;
+--ico-color: var(--color);
+--border-color: var(--surf-4);
+--radius: .25rem;
+--padding-block: .5rem;
+--padding-inline: .75rem;
+}
+
+:where(.details summary, .details-group summary, .details-group-card summary) {
+    color: var(--color);
+    font-size: var(--fs);  
+    font-weight: 600;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    list-style: none;
+    padding-block: var(--padding-block);
+    padding-inline: var(--padding-inline);
+            
+    &:after {
+      --svg: var(--plus);  
+      @extend %svg-mask;   
+      float: right;
+      margin-block-start: calc(var(--fs) / 4);
+      opacity: .5;
+    }
+}
+
+:where(.details, .details-group) {
+  
+  .details-body {
+    border: 1px solid var(--border-color);
+    border-bottom-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+    border-block-start: none;
+    padding-block: var(--padding-block);
+    padding-inline: var(--padding-inline);
+    
+    :where(p, ol, ul, dl, address) {
+      margin-block-end: .5rem;
+    }
+    
+    :last-child {
+      margin-block-end: 0;
+    }
+  }
+  
+  pre {
+    border: none;
+    border-bottom-left-radius: var(--radius); 
+    border-bottom-right-radius: var(--radius);
+  } 
+}
+
+:where(.details[open] summary, .details-group [open] summary, .details-group-card [open] summary) {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  
+  &:after {
+    --svg: var(--minus);
+  }
+}
+
+// Details group (accordion)
+
+:where(.details-group, .details-group-card) {
+--radius: 0;
+
+  details {
+    margin-block-end: 0;
+  }
+
+  summary {
+    border-block-end: none;
+  }
+  
+  [open] {
+    margin-block-end: 0;
+    
+    summary {
+      border-block-end: 1px solid var(--border-color);
+    }
+  }
+  
+  :first-child summary {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+  }
+  
+  :last-child summary {
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    border-block-end: 1px solid var(--border-color);
+  }
+  
+  :last-child[open] summary {
+    border-radius: 0;
+  }
+  
+  .details-body {
+    border-radius: var(--radius);
+    border-block-end: none;
+  }
+  
+  :last-child .details-body {
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    border-block-end: 1px solid var(--border-color);
+  }
+}
+
+
+// Details menu list
+
+:where(.details-list) {
+
+  margin-block-end: 0;
+  list-style: none;
+  padding-inline-start: 0;
+  
+  li {
+    border: 1px solid var(--border-color);
+    border-block-start: none;
+    padding-block: var(--padding-block);
+    padding-inline: var(--padding-inline); 
+    
+    &:hover {
+      background-color: var(--surf-2);
+    }
+    
+    &:last-child {
+      border-bottom-left-radius: var(--radius);
+      border-bottom-right-radius: var(--radius);
+    }
+  }
+  
+  a {
+    text-decoration: none;
+    display: block;           
+  }
+}
+
+:where(.details-group, .details-group-card) {
+  
+  ul { 
+    margin-block-end: 0;
+    list-style: none;
+    padding-inline-start: 0;
+    
+    a {
+      text-decoration: none;
+      display: block;
+           
+    } 
+  }   
+  
+  li {
+    border: 1px solid var(--border-color);
+    border-block-start: none;
+    padding-block: var(--padding-block);
+    padding-inline: var(--padding-inline); 
+    
+    &:hover {
+      background-color: var(--surf-2);
+    }
+  }
+}
+  
+:where(.details-group, .details-group-card) {
+  
+  [open] {
+  
+    li:last-child {
+      border-block-end: none;
+    }
+  }
+  
+  [open]:last-child {  
+  
+    li {
+      border-block-end: 1px solid var(--border-color);
+      
+      &:last-child {
+        border-bottom-left-radius: .25rem;
+        border-bottom-right-radius: .25rem;
+      }
+    }
+  }      
+}
+
+:where(.details-group-card) {
+  .card-title {
+    color: var(--color);
+    border: 1px solid var(--border-color);
+    border-start-start-radius: .25rem;
+    border-start-end-radius: .25rem;
+    border-block-end: none;
+    padding-block: var(--padding-block);
+    padding-inline: var(--padding-inline);
+    background-color: var(--bg-color);
+    &:is(p, h1, h2, h3, h4, h5, h6) {
+      margin-bottom: 0;
+    }
+  }
+}
+

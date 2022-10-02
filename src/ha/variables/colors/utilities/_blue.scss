@@ -1,0 +1,96 @@
+// Blue color utilities
+
+$blue-1-color:          #000 !default;
+$blue-1-bg-color:       var(--blue-1) !default;
+$blue-1-ico-color:      var(--color) !default;
+$blue-1-border-color:   var(--blue-2) !default;
+$blue-1-color-hover:    var(--color) !default;
+$blue-1-bg-hover:       var(--blue-2) !default;
+$blue-1-color-focus:    var(--color) !default;
+$blue-1-bg-focus:       var(--blue-1) !default;
+$blue-focus-hsl:        var(--blue) !default;
+
+$blue-1: (
+  "--color": #{$blue-1-color},
+  "--bg-color": #{$blue-1-bg-color},
+  "--border-color": #{$blue-1-border-color},
+  "--ico-color": #{$blue-1-ico-color},
+  "--bg-hover": #{$blue-1-bg-hover},
+  "--focus-hsl": #{$blue-focus-hsl},
+) !default;
+
+$blue-2-color:          #000 !default;
+$blue-2-bg-color:       var(--blue-2) !default;
+$blue-2-ico-color:      var(--color) !default;
+$blue-2-border-color:   var(--blue-3) !default;
+$blue-2-color-hover:    var(--color) !default;
+$blue-2-bg-hover:       var(--blue-1) !default;
+$blue-2-color-focus:    var(--color) !default;
+$blue-2-bg-focus:       var(--blue-2) !default;
+$blue-focus-hsl:        var(--blue) !default;
+
+$blue-2: (
+  "--color": #{$blue-2-color},
+  "--bg-color": #{$blue-2-bg-color},
+  "--border-color": #{$blue-2-border-color},
+  "--ico-color": #{$blue-2-ico-color},
+  "--bg-hover": #{$blue-2-bg-hover},
+  "--focus-hsl": #{$blue-focus-hsl},
+) !default;
+
+$blue-3-color:          #fff !default;
+$blue-3-bg-color:       var(--blue-3) !default;
+$blue-3-ico-color:      var(--color) !default;
+$blue-3-border-color:   var(--blue-4) !default;
+$blue-3-color-hover:    var(--color) !default;
+$blue-3-bg-hover:       var(--blue-4) !default;
+$blue-3-color-focus:    var(--color) !default;
+$blue-3-bg-focus:       var(--blue-5) !default;
+$blue-focus-hsl:        var(--blue) !default;
+
+$blue-3: (
+  "--color": #{$blue-3-color},
+  "--bg-color": #{$blue-3-bg-color},
+  "--border-color": #{$blue-3-border-color},
+  "--ico-color": #{$blue-3-ico-color},
+  "--bg-hover": #{$blue-3-bg-hover},
+  "--focus-hsl": #{$blue-focus-hsl},
+) !default;
+
+$blue-4-color:          #fff !default;
+$blue-4-bg-color:       var(--blue-4) !default;
+$blue-4-ico-color:      var(--color) !default;
+$blue-4-border-color:   var(--blue-5) !default;
+$blue-4-color-hover:    var(--color) !default;
+$blue-4-bg-hover:       var(--blue-3) !default;
+$blue-4-color-focus:    var(--color) !default;
+$blue-4-bg-focus:       var(--blue-5) !default;
+$blue-focus-hsl:        var(--blue) !default;
+
+$blue-4: (
+  "--color": #{$blue-4-color},
+  "--bg-color": #{$blue-4-bg-color},
+  "--border-color": #{$blue-4-border-color},
+  "--ico-color": #{$blue-4-ico-color},
+  "--bg-hover": #{$blue-4-bg-hover},
+  "--focus-hsl": #{$blue-focus-hsl},
+) !default;
+
+$blue-5-color:          #fff !default;
+$blue-5-bg-color:       var(--blue-5) !default;
+$blue-5-ico-color:      var(--color) !default;
+$blue-5-border-color:   var(--blue-4) !default;
+$blue-5-color-hover:    var(--color) !default;
+$blue-5-bg-hover:       var(--blue-4) !default;
+$blue-5-color-focus:    var(--color) !default;
+$blue-5-bg-focus:       var(--blue-3) !default;
+$blue-focus-hsl:        var(--blue) !default;
+
+$blue-5: (
+  "--color": #{$blue-5-color},
+  "--bg-color": #{$blue-5-bg-color},
+  "--border-color": #{$blue-5-border-color},
+  "--ico-color": #{$blue-5-ico-color},
+  "--bg-hover": #{$blue-5-bg-hover},
+  "--focus-hsl": #{$blue-focus-hsl},
+) !default;

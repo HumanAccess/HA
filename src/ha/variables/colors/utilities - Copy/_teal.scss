@@ -1,0 +1,111 @@
+// Teal color utilities
+
+$teal-1-color:          #000 !default;
+$teal-1-bg-color:       var(--teal-1) !default;
+$teal-1-ico-color:      var(--color) !default;
+$teal-1-border-color:   var(--teal-2) !default;
+$teal-1-color-hover:    var(--color) !default;
+$teal-1-bg-hover:       var(--teal-2) !default;
+$teal-1-color-focus:    var(--color) !default;
+$teal-1-bg-focus:       var(--teal-1) !default;
+$teal-focus-hsl:        var(--teal) !default;
+
+$teal-1: (
+  "--color": #{$teal-1-color},
+  "--bg-color": #{$teal-1-bg-color},
+  "--border-color": #{$teal-1-border-color},
+  "--ico-color": #{$teal-1-ico-color},
+  "--color-hover": #{$teal-1-color-hover},
+  "--color-focus": #{$teal-1-color-focus},
+  "--bg-hover": #{$teal-1-bg-hover},
+  "--bg-focus": #{$teal-1-bg-focus},
+  "--focus-hsl": #{$teal-focus-hsl},
+) !default;
+
+$teal-2-color:          #000 !default;
+$teal-2-bg-color:       var(--teal-2) !default;
+$teal-2-ico-color:      var(--color) !default;
+$teal-2-border-color:   var(--teal-3) !default;
+$teal-2-color-hover:    var(--color) !default;
+$teal-2-bg-hover:       var(--teal-1) !default;
+$teal-2-color-focus:    var(--color) !default;
+$teal-2-bg-focus:       var(--teal-2) !default;
+$teal-focus-hsl:        var(--teal) !default;
+
+$teal-2: (
+  "--color": #{$teal-2-color},
+  "--bg-color": #{$teal-2-bg-color},
+  "--border-color": #{$teal-2-border-color},
+  "--ico-color": #{$teal-2-ico-color},
+  "--color-hover": #{$teal-2-color-hover},
+  "--color-focus": #{$teal-2-color-focus},
+  "--bg-hover": #{$teal-2-bg-hover},
+  "--bg-focus": #{$teal-2-bg-focus},
+  "--focus-hsl": #{$teal-focus-hsl},
+) !default;
+
+$teal-3-color:          #000 !default;
+$teal-3-bg-color:       var(--teal-3) !default;
+$teal-3-ico-color:      var(--color) !default;
+$teal-3-border-color:   var(--teal-4) !default;
+$teal-3-color-hover:    var(--color) !default;
+$teal-3-bg-hover:       var(--teal-4) !default;
+$teal-3-color-focus:    var(--color) !default;
+$teal-3-bg-focus:       var(--teal-5) !default;
+$teal-focus-hsl:        var(--teal) !default;
+
+$teal-3: (
+  "--color": #{$teal-3-color},
+  "--bg-color": #{$teal-3-bg-color},
+  "--border-color": #{$teal-3-border-color},
+  "--ico-color": #{$teal-3-ico-color},
+  "--color-hover": #{$teal-3-color-hover},
+  "--color-focus": #{$teal-3-color-focus},
+  "--bg-hover": #{$teal-3-bg-hover},
+  "--bg-focus": #{$teal-3-bg-focus},
+  "--focus-hsl": #{$teal-focus-hsl},
+) !default;
+
+$teal-4-color:          #fff !default;
+$teal-4-bg-color:       var(--teal-4) !default;
+$teal-4-ico-color:      var(--color) !default;
+$teal-4-border-color:   var(--teal-5) !default;
+$teal-4-color-hover:    var(--color) !default;
+$teal-4-bg-hover:       var(--teal-3) !default;
+$teal-4-color-focus:    var(--color) !default;
+$teal-4-bg-focus:       var(--teal-5) !default;
+$teal-focus-hsl:        var(--teal) !default;
+
+$teal-4: (
+  "--color": #{$teal-4-color},
+  "--bg-color": #{$teal-4-bg-color},
+  "--border-color": #{$teal-4-border-color},
+  "--ico-color": #{$teal-4-ico-color},
+  "--color-hover": #{$teal-4-color-hover},
+  "--color-focus": #{$teal-4-color-focus},
+  "--bg-hover": #{$teal-4-bg-hover},
+  "--bg-focus": #{$teal-4-bg-focus},
+  "--focus-hsl": #{$teal-focus-hsl},
+) !default;
+
+$teal-5-color:          #fff !default;
+$teal-5-bg-color:       var(--teal-5) !default;
+$teal-5-ico-color:      var(--color) !default;
+$teal-5-border-color:   var(--teal-4) !default;
+$teal-5-color-hover:    var(--color) !default;
+$teal-5-bg-hover:       var(--teal-4) !default;
+$teal-5-color-focus:    var(--color) !default;
+$teal-5-bg-focus:       var(--teal-3) !default;
+$teal-focus-hsl:        var(--teal) !default;
+
+$teal-5: (
+  "--color": #{$teal-5-color},
+  "--bg-color": #{$teal-5-bg-color},
+  "--border-color": #{$teal-5-border-color},
+  "--ico-color": #{$teal-5-ico-color},
+  "--color-hover": #{$teal-5-color-hover},
+  "--color-focus": #{$teal-5-color-focus},
+  "--bg-hover": #{$teal-5-bg-hover},
+  "--bg-focus": #{$teal-5-bg-focus},
+  "--focus-hsl": #{$teal-focus-hsl},
+) !default;

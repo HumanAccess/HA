@@ -1,0 +1,111 @@
+// Red color utilities
+
+$red-1-color:          #000 !default;
+$red-1-bg-color:       var(--red-1) !default;
+$red-1-ico-color:      var(--color) !default;
+$red-1-border-color:   var(--red-2) !default;
+$red-1-color-hover:    var(--color) !default;
+$red-1-bg-hover:       var(--red-2) !default;
+$red-1-color-focus:    var(--color) !default;
+$red-1-bg-focus:       var(--red-1) !default;
+$red-focus-hsl:        var(--red) !default;
+
+$red-1: (
+  "--color": #{$red-1-color},
+  "--bg-color": #{$red-1-bg-color},
+  "--border-color": #{$red-1-border-color},
+  "--ico-color": #{$red-1-ico-color},
+  "--color-hover": #{$red-1-color-hover},
+  "--color-focus": #{$red-1-color-focus},
+  "--bg-hover": #{$red-1-bg-hover},
+  "--bg-focus": #{$red-1-bg-focus},
+  "--focus-hsl": #{$red-focus-hsl},
+) !default;
+
+$red-2-color:          #fff !default;
+$red-2-bg-color:       var(--red-2) !default;
+$red-2-ico-color:      var(--color) !default;
+$red-2-border-color:   var(--red-3) !default;
+$red-2-color-hover:    var(--color) !default;
+$red-2-bg-hover:       var(--red-1) !default;
+$red-2-color-focus:    var(--color) !default;
+$red-2-bg-focus:       var(--red-2) !default;
+$red-focus-hsl:        var(--red) !default;
+
+$red-2: (
+  "--color": #{$red-2-color},
+  "--bg-color": #{$red-2-bg-color},
+  "--border-color": #{$red-2-border-color},
+  "--ico-color": #{$red-2-ico-color},
+  "--color-hover": #{$red-2-color-hover},
+  "--color-focus": #{$red-2-color-focus},
+  "--bg-hover": #{$red-2-bg-hover},
+  "--bg-focus": #{$red-2-bg-focus},
+  "--focus-hsl": #{$red-focus-hsl},
+) !default;
+
+$red-3-color:          #fff !default;
+$red-3-bg-color:       var(--red-3) !default;
+$red-3-ico-color:      var(--color) !default;
+$red-3-border-color:   var(--red-4) !default;
+$red-3-color-hover:    var(--color) !default;
+$red-3-bg-hover:       var(--red-4) !default;
+$red-3-color-focus:    var(--color) !default;
+$red-3-bg-focus:       var(--red-5) !default;
+$red-focus-hsl:        var(--red) !default;
+
+$red-3: (
+  "--color": #{$red-3-color},
+  "--bg-color": #{$red-3-bg-color},
+  "--border-color": #{$red-3-border-color},
+  "--ico-color": #{$red-3-ico-color},
+  "--color-hover": #{$red-3-color-hover},
+  "--color-focus": #{$red-3-color-focus},
+  "--bg-hover": #{$red-3-bg-hover},
+  "--bg-focus": #{$red-3-bg-focus},
+  "--focus-hsl": #{$red-focus-hsl},
+) !default;
+
+$red-4-color:          #fff !default;
+$red-4-bg-color:       var(--red-4) !default;
+$red-4-ico-color:      var(--color) !default;
+$red-4-border-color:   var(--red-5) !default;
+$red-4-color-hover:    var(--color) !default;
+$red-4-bg-hover:       var(--red-3) !default;
+$red-4-color-focus:    var(--color) !default;
+$red-4-bg-focus:       var(--red-5) !default;
+$red-focus-hsl:        var(--red) !default;
+
+$red-4: (
+  "--color": #{$red-4-color},
+  "--bg-color": #{$red-4-bg-color},
+  "--border-color": #{$red-4-border-color},
+  "--ico-color": #{$red-4-ico-color},
+  "--color-hover": #{$red-4-color-hover},
+  "--color-focus": #{$red-4-color-focus},
+  "--bg-hover": #{$red-4-bg-hover},
+  "--bg-focus": #{$red-4-bg-focus},
+  "--focus-hsl": #{$red-focus-hsl},
+) !default;
+
+$red-5-color:          #fff !default;
+$red-5-bg-color:       var(--red-5) !default;
+$red-5-ico-color:      var(--color) !default;
+$red-5-border-color:   var(--red-4) !default;
+$red-5-color-hover:    var(--color) !default;
+$red-5-bg-hover:       var(--red-4) !default;
+$red-5-color-focus:    var(--color) !default;
+$red-5-bg-focus:       var(--red-3) !default;
+$red-focus-hsl:        var(--red) !default;
+
+$red-5: (
+  "--color": #{$red-5-color},
+  "--bg-color": #{$red-5-bg-color},
+  "--border-color": #{$red-5-border-color},
+  "--ico-color": #{$red-5-ico-color},
+  "--color-hover": #{$red-5-color-hover},
+  "--color-focus": #{$red-5-color-focus},
+  "--bg-hover": #{$red-5-bg-hover},
+  "--bg-focus": #{$red-5-bg-focus},
+  "--focus-hsl": #{$red-focus-hsl},
+) !default;

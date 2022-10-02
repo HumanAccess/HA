@@ -1,0 +1,20 @@
+// Gradients and shadows
+
+@each $gradients, $value in $gradients {
+  .#{$gradients} {
+    background-image: var(--#{$gradients});
+  }
+}
+
+@each $box-shadows, $value in $box-shadows {
+  .#{$box-shadows} {
+    box-shadow: var(--#{$box-shadows});
+  }
+}
+
+@each $text-shadows, $value in $text-shadows {
+  .#{$text-shadows} {
+    text-shadow: var(--#{$text-shadows});
+  }
+}
+

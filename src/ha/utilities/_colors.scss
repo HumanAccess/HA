@@ -1,0 +1,397 @@
+.bg {
+  color: var(--color);
+  background-color: var(--bg-color);
+  border: 2px solid var(--border-color);
+}
+
+:where(.white) {
+  --color: #000;
+  --bg-color: #fff;
+  --border-color: var(--gray-2);
+  --ico-color: var(--color);
+  --bg-hover: var(--gray-1);
+  --focus-hsl: var(--text-hsl);
+}
+
+:where(.black) {
+  --color: #fff;
+  --bg-color: #000;
+  --border-color: var(--gray-10);
+  --ico-color: var(--color);
+  --bg-hover: var(--gray-11);
+  --focus-hsl: var(--text-hsl);
+}
+
+.gray-1, .gray-2, .gray-3, .gray-4, .gray-5, .gray-6, .gray-7, .gray-8, .gray-9, .gray-10, .gray-11, .gray-12, {
+--ico-color: var(--color);
+--focus-hsl: var(--text-hsl);
+}
+
+.surf-1, .surf-2, .surf-3, .surf-4, .surf-5, .surf-6, .surf-7 {
+--color: var(--text);
+--ico-color: var(--color);
+--focus-hsl: var(--text-hsl);
+}
+
+:where(.surf-1) {
+  @each $surf-1, $value in $surf-1 {
+    #{$surf-1}: #{$value};
+  }
+}
+
+:where(.surf-2) {
+  @each $surf-2, $value in $surf-2 {
+    #{$surf-2}: #{$value};
+  }
+}
+
+:where(.surf-3) {
+  @each $surf-3, $value in $surf-3 {
+    #{$surf-3}: #{$value};
+  }
+}
+
+:where(.surf-4) {
+  @each $surf-4, $value in $surf-4 {
+    #{$surf-4}: #{$value};
+  }
+}
+
+:where(.surf-5) {
+  @each $surf-5, $value in $surf-5 {
+    #{$surf-5}: #{$value};
+  }
+}
+
+:where(.surf-6) {
+  @each $surf-6, $value in $surf-6 {
+    #{$surf-6}: #{$value};
+  }
+}
+
+:where(.surf-7) {
+  @each $surf-7, $value in $surf-7 {
+    #{$surf-7}: #{$value};
+  }
+}
+
+:where(.gray-1) {
+  @each $gray-1, $value in $gray-1 {
+    #{$gray-1}: #{$value};
+  }
+}
+
+:where(.gray-2) {
+  @each $gray-2, $value in $gray-2 {
+    #{$gray-2}: #{$value};
+  }
+}
+
+:where(.gray-3) {
+  @each $gray-3, $value in $gray-3 {
+    #{$gray-3}: #{$value};
+  }
+}
+
+:where(.gray-4) {
+  @each $gray-4, $value in $gray-4 {
+    #{$gray-4}: #{$value};
+  }
+}
+
+:where(.gray-5) {
+  @each $gray-5, $value in $gray-5 {
+    #{$gray-5}: #{$value};
+  }
+}
+
+:where(.gray-6) {
+  @each $gray-6, $value in $gray-6 {
+    #{$gray-6}: #{$value};
+  }
+}
+
+:where(.gray-7) {
+  @each $gray-7, $value in $gray-7 {
+    #{$gray-7}: #{$value};
+  }
+}
+
+:where(.gray-8) {
+  @each $gray-8, $value in $gray-8 {
+    #{$gray-8}: #{$value};
+  }
+}
+
+:where(.gray-9) {
+  @each $gray-9, $value in $gray-9 {
+    #{$gray-9}: #{$value};
+  }
+}
+
+:where(.gray-10) {
+  @each $gray-10, $value in $gray-10 {
+    #{$gray-10}: #{$value};
+  }
+}
+
+:where(.gray-11) {
+  @each $gray-11, $value in $gray-11 {
+    #{$gray-11}: #{$value};
+  }
+}
+
+:where(.gray-12) {
+  @each $gray-12, $value in $gray-12 {
+    #{$gray-12}: #{$value};
+  }
+}
+
+:where(.blue-1) {
+  @each $blue-1, $value in $blue-1 {
+    #{$blue-1}: #{$value};
+  }
+}
+
+:where(.blue-2) {
+  @each $blue-2, $value in $blue-2 {
+    #{$blue-2}: #{$value};
+  }
+}
+
+:where(.blue-3) {
+  @each $blue-3, $value in $blue-3 {
+    #{$blue-3}: #{$value};
+  }
+}
+ 
+:where(.blue-4) {
+  @each $blue-4, $value in $blue-4 {
+    #{$blue-4}: #{$value};
+  }
+}
+
+:where(.blue-5) {
+  @each $blue-5, $value in $blue-5 {
+    #{$blue-5}: #{$value};
+  }
+}
+
+// Green
+:where(.green-1) {
+  @each $green-1, $value in $green-1 {
+    #{$green-1}: #{$value};
+  }
+}
+
+:where(.green-2) {
+  @each $green-2, $value in $green-2 {
+    #{$green-2}: #{$value};
+  }
+}
+
+:where(.green-3) {
+  @each $green-3, $value in $green-3 {
+    #{$green-3}: #{$value};
+  }
+}
+ 
+:where(.green-4) {
+  @each $green-4, $value in $green-4 {
+    #{$green-4}: #{$value};
+  }
+}
+
+:where(.green-5) {
+  @each $green-5, $value in $green-5 {
+    #{$green-5}: #{$value};
+  }
+}
+ 
+// Red
+:where(.red-1) {
+  @each $red-1, $value in $red-1 {
+    #{$red-1}: #{$value};
+  }
+}
+
+:where(.red-2) {
+  @each $red-2, $value in $red-2 {
+    #{$red-2}: #{$value};
+  }
+}
+
+:where(.red-3) {
+  @each $red-3, $value in $red-3 {
+    #{$red-3}: #{$value};
+  }
+}
+ 
+:where(.red-4) {
+  @each $red-4, $value in $red-4 {
+    #{$red-4}: #{$value};
+  }
+}
+
+:where(.red-5) {
+  @each $red-5, $value in $red-5 {
+    #{$red-5}: #{$value};
+  }
+}
+
+// Yellow
+:where(.yellow-1) {
+  @each $yellow-1, $value in $yellow-1 {
+    #{$yellow-1}: #{$value};
+  }
+}
+
+:where(.yellow-2) {
+  @each $yellow-2, $value in $yellow-2 {
+    #{$yellow-2}: #{$value};
+  }
+}
+
+:where(.yellow-3) {
+  @each $yellow-3, $value in $yellow-3 {
+    #{$yellow-3}: #{$value};
+  }
+}
+ 
+:where(.yellow-4) {
+  @each $yellow-4, $value in $yellow-4 {
+    #{$yellow-4}: #{$value};
+  }
+}
+
+:where(.yellow-5) {
+  @each $yellow-5, $value in $yellow-5 {
+    #{$yellow-5}: #{$value};
+  }
+}
+
+// Orange
+:where(.orange-1) {
+  @each $orange-1, $value in $orange-1 {
+    #{$orange-1}: #{$value};
+  }
+}
+
+:where(.orange-2) {
+  @each $orange-2, $value in $orange-2 {
+    #{$orange-2}: #{$value};
+  }
+}
+
+:where(.orange-3) {
+  @each $orange-3, $value in $orange-3 {
+    #{$orange-3}: #{$value};
+  }
+}
+ 
+:where(.orange-4) {
+  @each $orange-4, $value in $orange-4 {
+    #{$orange-4}: #{$value};
+  }
+}
+
+:where(.orange-5) {
+  @each $orange-5, $value in $orange-5 {
+    #{$orange-5}: #{$value};
+  }
+}
+
+// Teal
+:where(.teal-1) {
+  @each $teal-1, $value in $teal-1 {
+    #{$teal-1}: #{$value};
+  }
+}
+
+:where(.teal-2) {
+  @each $teal-2, $value in $teal-2 {
+    #{$teal-2}: #{$value};
+  }
+}
+
+:where(.teal-3) {
+  @each $teal-3, $value in $teal-3 {
+    #{$teal-3}: #{$value};
+  }
+}
+ 
+:where(.teal-4) {
+  @each $teal-4, $value in $teal-4 {
+    #{$teal-4}: #{$value};
+  }
+}
+
+:where(.teal-5) {
+  @each $teal-5, $value in $teal-5 {
+    #{$teal-5}: #{$value};
+  }
+}
+  
+// Pink
+:where(.pink-1) {
+  @each $pink-1, $value in $pink-1 {
+    #{$pink-1}: #{$value};
+  }
+}
+
+:where(.pink-2) {
+  @each $pink-2, $value in $pink-2 {
+    #{$pink-2}: #{$value};
+  }
+}
+
+:where(.pink-3) {
+  @each $pink-3, $value in $pink-3 {
+    #{$pink-3}: #{$value};
+  }
+}
+ 
+:where(.pink-4) {
+  @each $pink-4, $value in $pink-4 {
+    #{$pink-4}: #{$value};
+  }
+}
+
+:where(.pink-5) {
+  @each $pink-5, $value in $pink-5 {
+    #{$pink-5}: #{$value};
+  }
+}
+
+// Cyan
+:where(.cyan-1) {
+  @each $cyan-1, $value in $cyan-1 {
+    #{$cyan-1}: #{$value};
+  }
+}
+
+:where(.cyan-2) {
+  @each $cyan-2, $value in $cyan-2 {
+    #{$cyan-2}: #{$value};
+  }
+}
+
+:where(.cyan-3) {
+  @each $cyan-3, $value in $cyan-3 {
+    #{$cyan-3}: #{$value};
+  }
+}
+ 
+:where(.cyan-4) {
+  @each $cyan-4, $value in $cyan-4 {
+    #{$cyan-4}: #{$value};
+  }
+}
+
+:where(.cyan-5) {
+  @each $cyan-5, $value in $cyan-5 {
+    #{$cyan-5}: #{$value};
+  }
+}
+ 
+   

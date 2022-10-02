@@ -1,0 +1,155 @@
+// Color scheme surface colors
+
+$surf-1-color:          var(--text) !default;
+$surf-1-bg-color:       var(--surf-1) !default;
+$surf-1-ico-color:      var(--color) !default;
+$surf-1-border-color:   var(--surf-2) !default;
+$surf-1-color-hover:    var(--color) !default;
+$surf-1-bg-hover:       var(--surf-2) !default;
+$surf-1-color-focus:    var(--color) !default;
+$surf-1-bg-focus:       var(--surf-1) !default;
+$surf-focus-hsl:        var(--text-hsl) !default;
+ 
+$surf-1: (
+  "--color": #{$surf-1-color},
+  "--bg-color": #{$surf-1-bg-color},
+  "--border-color": #{$surf-1-border-color},
+  "--ico-color": #{$surf-1-ico-color},
+  "--color-hover": #{$surf-1-color-hover},
+  "--color-focus": #{$surf-1-color-focus},
+  "--bg-hover": #{$surf-1-bg-hover},
+  "--bg-focus": #{$surf-1-bg-focus},
+  "--focus-hsl": #{$surf-focus-hsl},
+) !default;
+
+$surf-2-color:          var(--text) !default;
+$surf-2-bg-color:       var(--surf-2) !default;
+$surf-2-ico-color:      var(--color) !default;
+$surf-2-border-color:   var(--surf-3) !default;
+$surf-2-color-hover:    var(--color) !default;
+$surf-2-bg-hover:       var(--surf-3) !default;
+$surf-2-color-focus:    var(--color) !default;
+$surf-2-bg-focus:       var(--surf-4) !default;
+$surf-focus-hsl:        var(--text-hsl) !default;
+ 
+$surf-2: (
+  "--color": #{$surf-2-color},
+  "--bg-color": #{$surf-2-bg-color},
+  "--border-color": #{$surf-2-border-color},
+  "--ico-color": #{$surf-2-ico-color},
+  "--color-hover": #{$surf-2-color-hover},
+  "--color-focus": #{$surf-2-color-focus},
+  "--bg-hover": #{$surf-2-bg-hover},
+  "--bg-focus": #{$surf-2-bg-focus},
+  "--focus-hsl": #{$surf-focus-hsl},
+) !default;
+
+$surf-3-color:          var(--text) !default;
+$surf-3-bg-color:       var(--surf-3) !default;
+$surf-3-ico-color:      var(--color) !default;
+$surf-3-border-color:   var(--surf-4) !default;
+$surf-3-color-hover:    var(--color) !default;
+$surf-3-bg-hover:       var(--surf-4) !default;
+$surf-3-color-focus:    var(--color) !default;
+$surf-3-bg-focus:       var(--surf-5) !default;
+$surf-focus-hsl:        var(--text-hsl) !default;
+ 
+$surf-3: (
+  "--color": #{$surf-3-color},
+  "--bg-color": #{$surf-3-bg-color},
+  "--border-color": #{$surf-3-border-color},
+  "--ico-color": #{$surf-3-ico-color},
+  "--color-hover": #{$surf-3-color-hover},
+  "--color-focus": #{$surf-3-color-focus},
+  "--bg-hover": #{$surf-3-bg-hover},
+  "--bg-focus": #{$surf-3-bg-focus},
+  "--focus-hsl": #{$surf-focus-hsl},
+) !default;
+
+$surf-4-color:          var(--text) !default;
+$surf-4-bg-color:       var(--surf-4) !default;
+$surf-4-ico-color:      var(--color) !default;
+$surf-4-border-color:   var(--surf-5) !default;
+$surf-4-color-hover:    var(--color) !default;
+$surf-4-bg-hover:       var(--surf-5) !default;
+$surf-4-color-focus:    var(--color) !default;
+$surf-4-bg-focus:       var(--surf-3) !default;
+$surf-focus-hsl:        var(--text-hsl) !default;
+ 
+$surf-4: (
+  "--color": #{$surf-4-color},
+  "--bg-color": #{$surf-4-bg-color},
+  "--border-color": #{$surf-4-border-color},
+  "--ico-color": #{$surf-4-ico-color},
+  "--color-hover": #{$surf-4-color-hover},
+  "--color-focus": #{$surf-4-color-focus},
+  "--bg-hover": #{$surf-4-bg-hover},
+  "--bg-focus": #{$surf-4-bg-focus},
+  "--focus-hsl": #{$surf-focus-hsl},
+) !default;
+
+$surf-5-color:          var(--text) !default;
+$surf-5-bg-color:       var(--surf-5) !default;
+$surf-5-ico-color:      var(--color) !default;
+$surf-5-border-color:   var(--surf-6) !default;
+$surf-5-color-hover:    var(--color) !default;
+$surf-5-bg-hover:       var(--surf-6) !default;
+$surf-5-color-focus:    var(--color) !default;
+$surf-5-bg-focus:       var(--surf-4) !default;
+$surf-focus-hsl:        var(--text-hsl) !default;
+ 
+$surf-5: (
+  "--color": #{$surf-5-color},
+  "--bg-color": #{$surf-5-bg-color},
+  "--border-color": #{$surf-5-border-color},
+  "--ico-color": #{$surf-5-ico-color},
+  "--color-hover": #{$surf-5-color-hover},
+  "--color-focus": #{$surf-5-color-focus},
+  "--bg-hover": #{$surf-5-bg-hover},
+  "--bg-focus": #{$surf-5-bg-focus},
+  "--focus-hsl": #{$surf-focus-hsl},
+) !default;
+
+$surf-6-color:          var(--text) !default;
+$surf-6-bg-color:       var(--surf-6) !default;
+$surf-6-ico-color:      var(--color) !default;
+$surf-6-border-color:   var(--surf-7) !default;
+$surf-6-color-hover:    var(--text) !default;
+$surf-6-bg-hover:       var(--surf-7) !default;
+$surf-6-color-focus:    var(--color) !default;
+$surf-6-bg-focus:       var(--surf-5) !default;
+$surf-focus-hsl:        var(--text-hsl) !default;
+ 
+$surf-6: (
+  "--color": #{$surf-6-color},
+  "--bg-color": #{$surf-6-bg-color},
+  "--border-color": #{$surf-6-border-color},
+  "--ico-color": #{$surf-6-ico-color},
+  "--color-hover": #{$surf-6-color-hover},
+  "--color-focus": #{$surf-6-color-focus},
+  "--bg-hover": #{$surf-6-bg-hover},
+  "--bg-focus": #{$surf-6-bg-focus},
+  "--focus-hsl": #{$surf-focus-hsl},
+) !default;
+
+$surf-7-color:          var(--text) !default;
+$surf-7-bg-color:       var(--surf-7) !default;
+$surf-7-ico-color:      var(--color) !default;
+$surf-7-border-color:   var(--surf-6) !default;
+$surf-7-color-hover:    var(--text) !default;
+$surf-7-bg-hover:       var(--surf-6) !default;
+$surf-7-color-focus:    var(--text) !default;
+$surf-7-bg-focus:       var(--surf-5) !default;
+$surf-focus-hsl:        var(--text-hsl) !default;
+ 
+$surf-7: (
+  "--color": #{$surf-7-color},
+  "--bg-color": #{$surf-7-bg-color},
+  "--border-color": #{$surf-7-border-color},
+  "--ico-color": #{$surf-7-ico-color},
+  "--color-hover": #{$surf-7-color-hover},
+  "--color-focus": #{$surf-7-color-focus},
+  "--bg-hover": #{$surf-7-bg-hover},
+  "--bg-focus": #{$surf-7-bg-focus},
+  "--focus-hsl": #{$surf-focus-hsl},
+) !default;

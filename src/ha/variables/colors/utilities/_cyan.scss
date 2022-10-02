@@ -1,0 +1,96 @@
+// Cyan color utilities
+
+$cyan-1-color:          #000 !default;
+$cyan-1-bg-color:       var(--cyan-1) !default;
+$cyan-1-ico-color:      var(--color) !default;
+$cyan-1-border-color:   var(--cyan-2) !default;
+$cyan-1-color-hover:    var(--color) !default;
+$cyan-1-bg-hover:       var(--cyan-2) !default;
+$cyan-1-color-focus:    var(--color) !default;
+$cyan-1-bg-focus:       var(--cyan-1) !default;
+$cyan-focus-hsl:        var(--cyan) !default;
+
+$cyan-1: (
+  "--color": #{$cyan-1-color},
+  "--bg-color": #{$cyan-1-bg-color},
+  "--border-color": #{$cyan-1-border-color},
+  "--ico-color": #{$cyan-1-ico-color},
+  "--bg-hover": #{$cyan-1-bg-hover},
+  "--focus-hsl": #{$cyan-focus-hsl},
+) !default;
+
+$cyan-2-color:          #000 !default;
+$cyan-2-bg-color:       var(--cyan-2) !default;
+$cyan-2-ico-color:      var(--color) !default;
+$cyan-2-border-color:   var(--cyan-3) !default;
+$cyan-2-color-hover:    var(--color) !default;
+$cyan-2-bg-hover:       var(--cyan-1) !default;
+$cyan-2-color-focus:    var(--color) !default;
+$cyan-2-bg-focus:       var(--cyan-2) !default;
+$cyan-focus-hsl:        var(--cyan) !default;
+
+$cyan-2: (
+  "--color": #{$cyan-2-color},
+  "--bg-color": #{$cyan-2-bg-color},
+  "--border-color": #{$cyan-2-border-color},
+  "--ico-color": #{$cyan-2-ico-color},
+  "--bg-hover": #{$cyan-2-bg-hover},
+  "--focus-hsl": #{$cyan-focus-hsl},
+) !default;
+
+$cyan-3-color:          #000 !default;
+$cyan-3-bg-color:       var(--cyan-3) !default;
+$cyan-3-ico-color:      var(--color) !default;
+$cyan-3-border-color:   var(--cyan-4) !default;
+$cyan-3-color-hover:    var(--color) !default;
+$cyan-3-bg-hover:       var(--cyan-4) !default;
+$cyan-3-color-focus:    var(--color) !default;
+$cyan-3-bg-focus:       var(--cyan-5) !default;
+$cyan-focus-hsl:        var(--cyan) !default;
+
+$cyan-3: (
+  "--color": #{$cyan-3-color},
+  "--bg-color": #{$cyan-3-bg-color},
+  "--border-color": #{$cyan-3-border-color},
+  "--ico-color": #{$cyan-3-ico-color},
+  "--bg-hover": #{$cyan-3-bg-hover},
+  "--focus-hsl": #{$cyan-focus-hsl},
+) !default;
+
+$cyan-4-color:          #000 !default;
+$cyan-4-bg-color:       var(--cyan-4) !default;
+$cyan-4-ico-color:      var(--color) !default;
+$cyan-4-border-color:   var(--cyan-5) !default;
+$cyan-4-color-hover:    var(--color) !default;
+$cyan-4-bg-hover:       var(--cyan-3) !default;
+$cyan-4-color-focus:    var(--color) !default;
+$cyan-4-bg-focus:       var(--cyan-5) !default;
+$cyan-focus-hsl:        var(--cyan) !default;
+
+$cyan-4: (
+  "--color": #{$cyan-4-color},
+  "--bg-color": #{$cyan-4-bg-color},
+  "--border-color": #{$cyan-4-border-color},
+  "--ico-color": #{$cyan-4-ico-color},
+  "--bg-hover": #{$cyan-4-bg-hover},
+  "--focus-hsl": #{$cyan-focus-hsl},
+) !default;
+
+$cyan-5-color:          #000 !default;
+$cyan-5-bg-color:       var(--cyan-5) !default;
+$cyan-5-ico-color:      var(--color) !default;
+$cyan-5-border-color:   var(--cyan-4) !default;
+$cyan-5-color-hover:    var(--color) !default;
+$cyan-5-bg-hover:       var(--cyan-4) !default;
+$cyan-5-color-focus:    var(--color) !default;
+$cyan-5-bg-focus:       var(--cyan-3) !default;
+$cyan-focus-hsl:        var(--cyan) !default;
+
+$cyan-5: (
+  "--color": #{$cyan-5-color},
+  "--bg-color": #{$cyan-5-bg-color},
+  "--border-color": #{$cyan-5-border-color},
+  "--ico-color": #{$cyan-5-ico-color},
+  "--bg-hover": #{$cyan-5-bg-hover},
+  "--focus-hsl": #{$cyan-focus-hsl},
+) !default;

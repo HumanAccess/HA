@@ -1,0 +1,89 @@
+// Forms
+
+:where(input, button, select, optgroup, textarea) {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background-color: inherit;
+}
+
+:where(input, button, select, optgroup, textarea):disabled,
+:where([aria-disabled="true"]) {
+  opacity: .65;
+  pointer-events: none;
+}
+
+:where(input, textarea, select) {
+  padding: #{$form-padding};
+  background-clip: padding-box;
+  border: #{$form-border};
+}
+
+:where(textarea) {
+  resize: both;
+}
+
+:where([type=checkbox], [type=radio]) {
+  width: #{$check-size};
+  height: #{$check-size};
+  margin-block-start: #{$check-margin-top};
+  margin-inline-end: #{$check-margin-right};
+  vertical-align: #{$check-valign};
+}
+
+:where(input[type="search"]) {
+  -webkit-appearance: textfield;
+}
+
+:where(input[type="search"])::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+:where(select) {
+  color: #{$select-color};
+  word-wrap: normal;
+  padding: #{$select-padding};
+  background-color: #{$select-bg-color};
+}
+
+:where(fieldset) {
+  margin-bottom: .5rem;
+  border: #{$fieldset-border};
+  border-radius: #{$fieldset-border-radius};
+}
+
+:where(legend) {
+  margin-bottom: .5rem;
+  border: #{$legend-border};
+  border-radius: #{$legend-border-radius};
+  background-color: #{$legend-bg-color};
+  padding: #{$legend-padding};
+}
+
+:where(output) {
+  display: inline-block;
+}
+
+:where(progress) {
+  vertical-align: baseline;
+}
+
+:where([placeholder])::placeholder {
+  color: #{$placeholder-color};
+}
+
+:where([type=color]) { 
+  cursor: pointer;
+  padding: #{$input-color-padding};
+  border-radius: #{$input-color-border-radius};
+}
+
+:where(input[type="color"])::-webkit-color-swatch-wrapper {
+  padding: #{$input-color-padding};
+}
+
+:where(input[type="color" i])::-webkit-color-swatch {
+  border-color: var(--surf-3);
+}
+

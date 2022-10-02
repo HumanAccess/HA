@@ -1,0 +1,18 @@
+// Display (various)
+
+// Breakpoints
+$bp576:   576px;
+$bp768:   768px;
+$bp992:   992px;
+$bp1200:  1200px;
+$bp1400:  1400px;
+
+$breakpoints: (
+  "sm": $bp576,
+  "md": $bp768,
+  "lg": $bp992,
+  "xl": $bp1200,
+  "xxl": $bp1400,
+) !default;
+
+ 

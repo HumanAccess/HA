@@ -1,0 +1,111 @@
+// Yellow color utilities
+
+$yellow-1-color:          #000 !default;
+$yellow-1-bg-color:       var(--yellow-1) !default;
+$yellow-1-ico-color:      var(--color) !default;
+$yellow-1-border-color:   var(--yellow-2) !default;
+$yellow-1-color-hover:    var(--color) !default;
+$yellow-1-bg-hover:       var(--yellow-2) !default;
+$yellow-1-color-focus:    var(--color) !default;
+$yellow-1-bg-focus:       var(--yellow-1) !default;
+$yellow-focus-hsl:        var(--yellow) !default;
+
+$yellow-1: (
+  "--color": #{$yellow-1-color},
+  "--bg-color": #{$yellow-1-bg-color},
+  "--border-color": #{$yellow-1-border-color},
+  "--ico-color": #{$yellow-1-ico-color},
+  "--color-hover": #{$yellow-1-color-hover},
+  "--color-focus": #{$yellow-1-color-focus},
+  "--bg-hover": #{$yellow-1-bg-hover},
+  "--bg-focus": #{$yellow-1-bg-focus},
+  "--focus-hsl": #{$yellow-focus-hsl},
+) !default;
+
+$yellow-2-color:          #000 !default;
+$yellow-2-bg-color:       var(--yellow-2) !default;
+$yellow-2-ico-color:      var(--color) !default;
+$yellow-2-border-color:   var(--yellow-3) !default;
+$yellow-2-color-hover:    var(--color) !default;
+$yellow-2-bg-hover:       var(--yellow-1) !default;
+$yellow-2-color-focus:    var(--color) !default;
+$yellow-2-bg-focus:       var(--yellow-2) !default;
+$yellow-focus-hsl:        var(--yellow) !default;
+
+$yellow-2: (
+  "--color": #{$yellow-2-color},
+  "--bg-color": #{$yellow-2-bg-color},
+  "--border-color": #{$yellow-2-border-color},
+  "--ico-color": #{$yellow-2-ico-color},
+  "--color-hover": #{$yellow-2-color-hover},
+  "--color-focus": #{$yellow-2-color-focus},
+  "--bg-hover": #{$yellow-2-bg-hover},
+  "--bg-focus": #{$yellow-2-bg-focus},
+  "--focus-hsl": #{$yellow-focus-hsl},
+) !default;
+
+$yellow-3-color:          #000 !default;
+$yellow-3-bg-color:       var(--yellow-3) !default;
+$yellow-3-ico-color:      var(--color) !default;
+$yellow-3-border-color:   var(--yellow-4) !default;
+$yellow-3-color-hover:    var(--color) !default;
+$yellow-3-bg-hover:       var(--yellow-4) !default;
+$yellow-3-color-focus:    var(--color) !default;
+$yellow-3-bg-focus:       var(--yellow-5) !default;
+$yellow-focus-hsl:        var(--yellow) !default;
+
+$yellow-3: (
+  "--color": #{$yellow-3-color},
+  "--bg-color": #{$yellow-3-bg-color},
+  "--border-color": #{$yellow-3-border-color},
+  "--ico-color": #{$yellow-3-ico-color},
+  "--color-hover": #{$yellow-3-color-hover},
+  "--color-focus": #{$yellow-3-color-focus},
+  "--bg-hover": #{$yellow-3-bg-hover},
+  "--bg-focus": #{$yellow-3-bg-focus},
+  "--focus-hsl": #{$yellow-focus-hsl},
+) !default;
+
+$yellow-4-color:          #000 !default;
+$yellow-4-bg-color:       var(--yellow-4) !default;
+$yellow-4-ico-color:      var(--color) !default;
+$yellow-4-border-color:   var(--yellow-5) !default;
+$yellow-4-color-hover:    var(--color) !default;
+$yellow-4-bg-hover:       var(--yellow-3) !default;
+$yellow-4-color-focus:    var(--color) !default;
+$yellow-4-bg-focus:       var(--yellow-5) !default;
+$yellow-focus-hsl:        var(--yellow) !default;
+
+$yellow-4: (
+  "--color": #{$yellow-4-color},
+  "--bg-color": #{$yellow-4-bg-color},
+  "--border-color": #{$yellow-4-border-color},
+  "--ico-color": #{$yellow-4-ico-color},
+  "--color-hover": #{$yellow-4-color-hover},
+  "--color-focus": #{$yellow-4-color-focus},
+  "--bg-hover": #{$yellow-4-bg-hover},
+  "--bg-focus": #{$yellow-4-bg-focus},
+  "--focus-hsl": #{$yellow-focus-hsl},
+) !default;
+
+$yellow-5-color:          #000 !default;
+$yellow-5-bg-color:       var(--yellow-5) !default;
+$yellow-5-ico-color:      var(--color) !default;
+$yellow-5-border-color:   var(--yellow-4) !default;
+$yellow-5-color-hover:    var(--color) !default;
+$yellow-5-bg-hover:       var(--yellow-4) !default;
+$yellow-5-color-focus:    var(--color) !default;
+$yellow-5-bg-focus:       var(--yellow-3) !default;
+$yellow-focus-hsl:        var(--yellow) !default;
+
+$yellow-5: (
+  "--color": #{$yellow-5-color},
+  "--bg-color": #{$yellow-5-bg-color},
+  "--border-color": #{$yellow-5-border-color},
+  "--ico-color": #{$yellow-5-ico-color},
+  "--color-hover": #{$yellow-5-color-hover},
+  "--color-focus": #{$yellow-5-color-focus},
+  "--bg-hover": #{$yellow-5-bg-hover},
+  "--bg-focus": #{$yellow-5-bg-focus},
+  "--focus-hsl": #{$yellow-focus-hsl},
+) !default;

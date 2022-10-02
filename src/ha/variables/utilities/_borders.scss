@@ -1,0 +1,19 @@
+// Borders
+
+// Radius
+
+$radius-1: 0.125rem !default; // 2px
+$radius-2: 0.25rem !default; // 4px
+$radius-3: 0.5rem !default; // 8px
+$radius-4: 0.75rem !default; // 12px
+$radius-5: 1rem !default; // 16px
+
+$radius: (
+  "radius-1": $radius-1,
+  "radius-2": $radius-2,
+  "radius-3": $radius-3,
+  "radius-4": $radius-4,
+  "radius-5": $radius-5,
+) !default;
+
+ 

@@ -1,0 +1,96 @@
+// Green color utilities
+
+$green-1-color:          #000 !default;
+$green-1-bg-color:       var(--green-1) !default;
+$green-1-ico-color:      var(--color) !default;
+$green-1-border-color:   var(--green-2) !default;
+$green-1-color-hover:    var(--color) !default;
+$green-1-bg-hover:       var(--green-2) !default;
+$green-1-color-focus:    var(--color) !default;
+$green-1-bg-focus:       var(--green-1) !default;
+$green-focus-hsl:        var(--green) !default;
+
+$green-1: (
+  "--color": #{$green-1-color},
+  "--bg-color": #{$green-1-bg-color},
+  "--border-color": #{$green-1-border-color},
+  "--ico-color": #{$green-1-ico-color},
+  "--bg-hover": #{$green-1-bg-hover},
+  "--focus-hsl": #{$green-focus-hsl},
+) !default;
+
+$green-2-color:          #000 !default;
+$green-2-bg-color:       var(--green-2) !default;
+$green-2-ico-color:      var(--color) !default;
+$green-2-border-color:   var(--green-3) !default;
+$green-2-color-hover:    var(--color) !default;
+$green-2-bg-hover:       var(--green-1) !default;
+$green-2-color-focus:    var(--color) !default;
+$green-2-bg-focus:       var(--green-2) !default;
+$green-focus-hsl:        var(--green) !default;
+
+$green-2: (
+  "--color": #{$green-2-color},
+  "--bg-color": #{$green-2-bg-color},
+  "--border-color": #{$green-2-border-color},
+  "--ico-color": #{$green-2-ico-color},
+  "--bg-hover": #{$green-2-bg-hover},
+  "--focus-hsl": #{$green-focus-hsl},
+) !default;
+
+$green-3-color:          #fff !default;
+$green-3-bg-color:       var(--green-3) !default;
+$green-3-ico-color:      var(--color) !default;
+$green-3-border-color:   var(--green-4) !default;
+$green-3-color-hover:    var(--color) !default;
+$green-3-bg-hover:       var(--green-4) !default;
+$green-3-color-focus:    var(--color) !default;
+$green-3-bg-focus:       var(--green-5) !default;
+$green-focus-hsl:        var(--green) !default;
+
+$green-3: (
+  "--color": #{$green-3-color},
+  "--bg-color": #{$green-3-bg-color},
+  "--border-color": #{$green-3-border-color},
+  "--ico-color": #{$green-3-ico-color},
+  "--bg-hover": #{$green-3-bg-hover},
+  "--focus-hsl": #{$green-focus-hsl},
+) !default;
+
+$green-4-color:          #fff !default;
+$green-4-bg-color:       var(--green-4) !default;
+$green-4-ico-color:      var(--color) !default;
+$green-4-border-color:   var(--green-5) !default;
+$green-4-color-hover:    var(--color) !default;
+$green-4-bg-hover:       var(--green-3) !default;
+$green-4-color-focus:    var(--color) !default;
+$green-4-bg-focus:       var(--green-5) !default;
+$green-focus-hsl:        var(--green) !default;
+
+$green-4: (
+  "--color": #{$green-4-color},
+  "--bg-color": #{$green-4-bg-color},
+  "--border-color": #{$green-4-border-color},
+  "--ico-color": #{$green-4-ico-color},
+  "--bg-hover": #{$green-4-bg-hover},
+  "--focus-hsl": #{$green-focus-hsl},
+) !default;
+
+$green-5-color:          #fff !default;
+$green-5-bg-color:       var(--green-5) !default;
+$green-5-ico-color:      var(--color) !default;
+$green-5-border-color:   var(--green-4) !default;
+$green-5-color-hover:    var(--color) !default;
+$green-5-bg-hover:       var(--green-4) !default;
+$green-5-color-focus:    var(--color) !default;
+$green-5-bg-focus:       var(--green-3) !default;
+$green-focus-hsl:        var(--green) !default;
+
+$green-5: (
+  "--color": #{$green-5-color},
+  "--bg-color": #{$green-5-bg-color},
+  "--border-color": #{$green-5-border-color},
+  "--ico-color": #{$green-5-ico-color},
+  "--bg-hover": #{$green-5-bg-hover},
+  "--focus-hsl": #{$green-focus-hsl},
+) !default;

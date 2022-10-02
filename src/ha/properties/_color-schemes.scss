@@ -1,0 +1,49 @@
+// Color schemes Sass and CSS variables
+
+:root {
+  color-scheme: dark light;
+}
+
+// Sun and moon SVG icons
+:where(html) {
+  --day-mode: #{$day-mode};
+  --night-mode: #{$night-mode};
+}
+
+// Each color scheme requires duplication to work with JS manual
+// switching and @media prefers options.
+
+// Base light mode
+:where(html) {  
+    @each $lightmode, $value in $lightmode {
+    #{$lightmode}: #{$value};
+  }
+}
+
+// JS manual dark mode switch
+:where(body.dark-theme) {  
+    @each $darkmode, $value in $darkmode {
+    #{$darkmode}: #{$value};
+  }
+}
+
+// Prefers dark mode
+@media (prefers-color-scheme: dark) {
+ :where(html) { 
+     @each $darkmode, $value in $darkmode {
+     #{$darkmode}: #{$value};
+   }
+ }
+}
+
+// Prefers dark mode - JS manual light mode switch
+@media (prefers-color-scheme: dark) { 
+ :where(html) body.light-theme {
+     @each $lightmode, $value in $lightmode {
+     #{$lightmode}: #{$value};
+   }
+ }
+}
+
+
+ 

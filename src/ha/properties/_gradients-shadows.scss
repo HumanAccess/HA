@@ -1,0 +1,13 @@
+
+:where(html) {    
+  @each $gradients, $value in $gradients {
+    --#{$gradients}: #{$value};
+  }
+  @each $box-shadows, $value in $box-shadows {
+    --#{$box-shadows}: #{$value};
+  }
+  @each $text-shadows, $value in $text-shadows {
+    --#{$text-shadows}: #{$value};
+  }
+}
+ 

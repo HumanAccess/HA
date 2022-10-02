@@ -1,0 +1,8 @@
+/home/
+/src/home/
+/src/_scratchpad.scss
+/src/home.scss
+
+*.ppr
+.hugo_build.lock
+desktop.ini

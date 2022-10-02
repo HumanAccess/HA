@@ -1,0 +1,19 @@
+// Tables
+
+$table-width:               100% !default;
+$table-border-color:        var(--surf-3) !default;
+$table-border-width:        .0125rem !default;
+$table-valign:              top !default;
+$table-padding:             .5rem 1rem !default;
+$table-margin-bottom:       1rem !default;
+$table-cap-fs:              var(--fs-sm) !default;
+$table-cap-fw:              bold !default;
+$table-cap-side:            top !default;
+$table-cap-align:           left !default;
+$table-cap-padding:         .5rem !default;
+$table-th-fw:               bold !default;
+$table-thead-fw:            bolder !default;
+$table-thead-bg-color:      hsla(var(--text-hsl), .05) !default;
+$table-thead-border-right:  var(--body-bg) !default;
+$table-tr-hover:            var(--surf-2) !default;
+ 

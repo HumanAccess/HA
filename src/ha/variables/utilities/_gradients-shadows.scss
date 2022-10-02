@@ -1,0 +1,41 @@
+// Gradients and shadows
+
+$gradient-1:    linear-gradient(180deg, hsla(var(--white) / .075), hsla(var(--white) / 0)) !default;
+$gradient-2:    linear-gradient(180deg, hsla(var(--white) / .2), hsla(var(--white) / 0)) !default;
+$gradient-3:    linear-gradient(180deg, hsla(var(--white) / .3), hsla(var(--white) / 0)) !default;
+$gradient-4:    linear-gradient(180deg, hsla(var(--white) / .4), hsla(var(--white) / 0)) !default;
+$gradient-5:    linear-gradient(180deg, hsla(var(--white) / .5), hsla(var(--white) / 0)) !default;
+$gradient-6:    linear-gradient(180deg, hsla(var(--white) / .6), hsla(var(--white) / 0)) !default;
+
+$gradients: (
+  "gradient-1": #{$gradient-1},
+  "gradient-2": #{$gradient-2},
+  "gradient-3": #{$gradient-3},
+  "gradient-4": #{$gradient-4},
+  "gradient-5": #{$gradient-5},
+  "gradient-6": #{$gradient-6},
+) !default;
+
+$box-shadow-1:  0.125rem 0.125rem 0.25rem hsla(var(--black) / 0.075) !default;
+$box-shadow-2:  0.063rem 0.063rem 0.125rem hsla(var(--black) / 0.25) !default;
+$box-shadow-3:  0.15rem 0.156rem 0.25rem hsla(var(--black) / 0.2) !default;
+$box-shadow-4:  0.175rem 0.175rem 0.5rem hsla(var(--black) / 0.25) !default;
+
+$box-shadows: (
+  "box-shadow-1": #{$box-shadow-1},
+  "box-shadow-2": #{$box-shadow-2},
+  "box-shadow-3": #{$box-shadow-3},
+  "box-shadow-4": #{$box-shadow-4},
+) !default;
+
+$text-shadow-1:  0.03rem 0.05rem 0.094rem hsla(var(--black) / 0.5) !default;
+$text-shadow-2:  0.03rem 0.08rem 0.175rem hsla(var(--black) / 0.25) !default;
+$text-shadow-3:  0.075rem 0.08rem 0.15rem hsla(var(--black) / 0.35) !default;
+$text-shadow-4:  0.1rem 0.1rem 0.2rem hsla(var(--black) / 0.3) !default;
+
+$text-shadows: (
+  "text-shadow-1": #{$text-shadow-1},
+  "text-shadow-2": #{$text-shadow-2},
+  "text-shadow-3": #{$text-shadow-3},
+  "text-shadow-4": #{$text-shadow-4},
+) !default;

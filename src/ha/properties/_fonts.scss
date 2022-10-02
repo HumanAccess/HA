@@ -1,0 +1,12 @@
+
+:where(html) {    
+  @each $fonts, $value in $fonts {
+    #{$fonts}: #{$value};
+  }
+  @each $static, $value in $static {
+    #{$static}: #{$value};
+  }
+  @each $fluid, $value in $fluid {
+    #{$fluid}: #{$value};
+  }
+}
